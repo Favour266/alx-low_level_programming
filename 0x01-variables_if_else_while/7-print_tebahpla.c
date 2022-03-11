@@ -6,11 +6,12 @@
  */
 int main(void)
 {
-	int firstLetter, n;
-	for (firstLetter = 122, n = 1; n < 27; firstLetter--, n++)
-	{
-		putchar(firstLetter);
-	}
-	putchar(10);
-	return (0);
+int firstLetter, n;
+
+for (firstLetter = 122, n = 1; n < 27; firstLetter--, n++)
+{
+putchar(firstLetter);
+}
+putchar(10);
+return (0);
 }
