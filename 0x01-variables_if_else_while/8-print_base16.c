@@ -6,16 +6,18 @@
  */
 int main(void)
 {
-int num, hexletter, n;
+	char c;
+	int i;
 
-for (num = 48, n =0; n < 10; num++, n++)
-{
-putchar(num);
-}
-for (hexletter = 97, n = 1; n < 7; hexletter++, n++)
-{
-putchar(hexletter);
-}
-putchar(10);
-return (0);
+	for (i = 0; i < 10; i++)
+	{
+		putchar(i + '0');
+	}
+	for (c = 'a'; c < 'g'; c++)
+	{
+		putchar(c);
+	}
+	putchar('\n');
+
+	return (0);
 }
