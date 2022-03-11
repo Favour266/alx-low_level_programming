@@ -6,12 +6,14 @@
  */
 int main(void)
 {
-int firstLetter, n;
+	char c = 'a';
 
-for (firstLetter = 97, n = 1; n < 27; firstLetter++, n++)
-{
-putchar(firstLetter);
-}
-putchar(10);
-return (0);
+	while (c <= 'z')
+	{
+		putchar(c);
+		c++;
+	}
+	putchar('\n');
+
+	return (0);
 }
