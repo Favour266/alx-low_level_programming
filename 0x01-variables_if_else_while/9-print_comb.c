@@ -5,17 +5,21 @@
  * Return: Always 0 (Success)
  */
 int main(void)
-{
-int k;
+{	
+	int i = 0;
 
-for (k = 48; k <= 57; k++)
-{putchar(k);
-if (k < 57)
-{
-putchar(',');
-putchar('');
+	while (i < 10)
+	{
+		putchar(i + '0');
+		if (i < 9)
+		{
+			putchar(44);
+			putchar(32);
+		}
+		i++;
+	}
+	putchar('\n');
+
+	return (0);
 }
-}
-putchar('\n');
-return (0)
-}
+
