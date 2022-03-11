@@ -1,18 +1,16 @@
  #include <stdio.h>
-
 /**
- * main - prints the lowercase lowercase alphabet in reverse,
- * followed by a new line
- * Return: Always 0 (Success)
+ * main - Entry point
+ * Description: random number in n +ve/-ve
+ * Return: 0 on success
  */
 int main(void)
 {
-	char ch;
-
-	for (ch = 'z'; ch >= 'a'; ch--)
+	int firstLetter, n;
+	for (firstLetter = 122, n = 1; n < 27; firstLetter--, n++)
 	{
-		putchar(ch);
+		putchar(firstLetter);
 	}
-	putchar('\n');
-	return(0)
+	putchar(10);
+	return (0);
 }
