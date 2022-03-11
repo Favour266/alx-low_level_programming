@@ -1,17 +1,18 @@
 #include <stdio.h>
 /**
  * main - Entry point
- *
- * Return: Always 0 (Success)
+ * Description: random number in n +ve/-ve
+ * Return: 0 on success
  */
 int main(void)
 {
-int k;
+int num, i;
 
-for (k = 48; k <= 57; k++)
+for (num = 48, i = 0; i < 10; num++, i++)
 {
-putchar(k);
+putchar(num);
 }
-putchar("\n");
+putchar(10);
 return (0);
 }
+
