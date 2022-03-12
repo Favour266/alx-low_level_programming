@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * Description: random number in n +ve/-ve 
- * Return: 0 on Success
+ *
+ * Return: 0
  */
 int main(void)
 {
