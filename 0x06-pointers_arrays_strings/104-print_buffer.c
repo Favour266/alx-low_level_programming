@@ -9,7 +9,9 @@ i#include "main.h"
  */
 void print_buffer(char *b, int size)
 {
-	int j, k, l;
+	int j;
+	int k;
+	int l;
 
 	if (size <= 0)
 		printf("\n");
