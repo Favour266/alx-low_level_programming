@@ -1,1 +1,1 @@
-c programming
+my first readme in static
